@@ -1,0 +1,126 @@
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.header-logo {
+    position: relative;
+    color: white;
+    cursor: pointer;
+    float: left;
+    margin-left: 40px;
+}
+
+header {
+    position: top;
+    margin: 0px;
+    background-color: #000;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: red;
+}
+.btn {
+    display: inline-block;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 5px;
+    transition: background 0.5s;
+}
+.btn:hover {
+    background: red;
+    color: white;
+}
+.hero {
+    width: 100%;
+    padding: 0px;
+    background-color: #ffffff;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.col-2 {
+    flex-basis: 50%;
+    padding: 0%;
+}
+h3 {
+    color: red;
+    margin-top: 10px;
+}
+.small-container {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    margin-top: -120px;
+    border-radius: 5px;
+    border-radius: 15px;
+    align-items: center;
+/*    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;*/
+    background: #ffffff;
+}
+
+p {
+    color: #8e8e8e;
+    margin-top: 0px;
+    padding: 5px;
+    padding-left: 0px;
+}
+.title {
+    margin: 0 auto 10px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after {
+    content: '';
+    background: #ff523b;
+    width: 50px;
+    height: 5px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 0.5px;
+    left: 0;
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+li {
+    margin: 0px;
+    padding: 0px;
+}
+h4 {
+    padding: 0px;
+    margin: 0px;
+}
